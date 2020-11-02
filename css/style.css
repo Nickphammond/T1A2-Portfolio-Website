@@ -1,4 +1,11 @@
 
+@keyframes homebackground {
+    0% {fill: mediumpurple; width: 100%; height: 100%;}
+    100% {fill: cyan; width: 50%; height: 50%; left:25%; top: 25%;}
+}
+
+
+
 body {
     text-align: center;
 }
@@ -16,18 +23,35 @@ nav {
 }
 
 article {
+    background-color: lightgray;
     position: relative;
+    box-sizing: border-box;
     width: 75%;
     left: 12.5%;
+    margin: 60px 0 60px;
+    padding: 30px;
 }
 
 article h2 {
+    font-size: 3em;
     color: red;
     padding: 30px;
 }
 
 article p {
     padding: 30px;
+}
+
+
+img {
+    width: 100%;
+}
+
+label {
+    display: block;
+}
+input {
+    display: inline-block;
 }
 
 .navbar-wrapper {
@@ -47,6 +71,25 @@ article p {
 ul {
     height: 40px;
 }
+
+.home-background {
+    background-color: lightslategrey;
+}
+
+.svg-background {
+    animation-name: homebackground;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left:0;
+    z-index: -1;
+}
+
 
 .icon-1 {
     background-color: red;
