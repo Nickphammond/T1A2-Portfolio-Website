@@ -11,11 +11,15 @@ body {
 }
 
 a {
-    color: red;
+    color: #dfd3e0;
+    text-decoration: none;
+    margin: 30px;
+    font-family: 'Cantarell', sans-serif;
 }
 
 h1 {
-    color: red;
+    color:#dfd3e0;
+    font-family: 'Cantarell', sans-serif;
 }
 
 nav {
@@ -34,12 +38,13 @@ article {
 
 article h2 {
     font-size: 3em;
-    color: red;
-    padding: 30px;
+    color: black;
+    font-family: 'Cantarell', sans-serif;
 }
 
 article p {
     padding: 30px;
+    font-family: 'Cantarell', sans-serif;
 }
 
 
@@ -70,9 +75,9 @@ input {
     margin: 0;
 }
 
-ul {
+/* ul {
     height: 40px;
-}
+} */
 
 .home-background {
     background-color: lightslategrey;
@@ -90,6 +95,17 @@ ul {
     top: 0px;
     left:0;
     z-index: -1;
+}
+
+
+.homepageh2 {
+    text-align: center;
+    width: 0%;
+    position: relative;
+    margin: 0;
+    left: 50%;
+    text-orientation: upright;
+    writing-mode: vertical-rl;
 }
 
 
