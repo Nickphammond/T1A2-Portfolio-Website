@@ -4,6 +4,13 @@
     100% {fill: cyan; width: 50%; height: 50%; left:25%; top: 25%;}
 }
 
+@media screen and (min-width: 900px) {
+    input {
+        width: 100%;
+        line-height: 2em;
+    }
+}
+
 
 
 body {
@@ -22,6 +29,7 @@ nav a {
 }
 
 h1 {
+    margin-bottom: 30px;
     color:#dfd3e0;
     font-family: 'Cantarell', sans-serif;
     display: block;
@@ -90,6 +98,12 @@ span {
     margin: 100px 0 100px;
 }
 
+.projects-wrapper {
+    margin: 100px 0 100px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .about-sentence {
     box-sizing: border-box;
@@ -143,6 +157,10 @@ span {
     clip-path: url(#myClip);
     width: 400px;
     height: 400px;
+}
+
+.input-container {
+    margin: 100px;
 }
 
 
