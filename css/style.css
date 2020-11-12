@@ -17,17 +17,69 @@
         height: 100px;}
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (max-device-width: 900px) {
     input {
         width: 100%;
         line-height: 2em;
     }
+
+    body .homepageh2 {
+        font-size: 3em;
+        
+    }
+
+    body #home-wrapper {
+        top: 140px;
+        right: 34px;
+    }
+
+    nav a {
+        font-size: 2em;
+    }
+
 }
 
 
-html {
-    height: 100%;
+@media (max-width: 550px) {
+
+    body article {
+        width: 354px;
+        box-sizing: content-box;
+        left: 69px;
+    }
+
+    body .about-section {
+        width: 500px;
+    }
+
+    input {
+        width: 350px;
+    }
+
+    label {
+        width: 350px;
+    }
+
+    nav {
+        width: 550px;
+    }
+
+    .navbar-wrapper {
+        width:550px;
+    }
+
+    h1 {
+        width:550px;
+    }
+
+    #resume-button {
+        width: 500px;
+    }
 }
+
+
+
+
 
 body {
     /* color:#dfd3e0; */
@@ -45,6 +97,8 @@ a {
     margin: 0;
 }
 
+
+
 nav a {
 
     text-decoration: none;
@@ -52,21 +106,36 @@ nav a {
 }
 
 h1 {
-
     margin-bottom: 30px;
     display: block;
     letter-spacing: 24px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 0.5em;
+}
+
+h4 {
+    font-size: 0.9em;
 }
 
 nav {
     width: 100%;
-    display: inline-block;
+    display: inline;
+    text-align: center;
 }
 
-article {
+li {
+    list-style: none;
+    display: inline;
+}
+
+.blog-article {
     background-color: lightgray;
     position: relative;
     box-sizing: border-box;
+    /* width:600px; */
     width: 75%;
     left: 12.5%;
     margin: 60px 0 60px;
@@ -90,7 +159,7 @@ img {
 }
 
 label {
-    display: block;
+    /* display: inline-block; */
 }
 input {
     display: inline-block;
@@ -123,8 +192,8 @@ text {
     /* transform:scale(4,1); */
 }
 
+
 .navbar-wrapper {
-    text-align: center;
     margin: 0 0 100px 0px;
 }
 
@@ -135,7 +204,7 @@ text {
     flex-wrap: wrap;
 }
 
-.about-sentence {
+.about-section {
     box-sizing: border-box;
     width: 100%;
     background-color: lightblue;
@@ -145,8 +214,9 @@ text {
 }
 
 
-.home-background {
+#home-background {
     background-color: lightslategrey;
+    height: 100%;
 }
 
 .svg-background {
@@ -163,6 +233,14 @@ text {
     z-index: -2;
 }
 
+.background-2 {
+    height: 100%;
+}
+
+/* #home-wrapper {
+    display: inline;
+} */
+
 #home-circle {
     animation-name: homebackground;
     animation-duration: 2s;
@@ -172,61 +250,26 @@ text {
     /* transform: scale(0.5); */
 }
 
-#resume-circle {
+#home-wrapper {
     position: relative;
+    right: 13px;
 }
 
-#resume-circle-top {
-    fill: greenyellow;
+
+#resume-svg {
+    position: relative;
 }
 
 #resume-button {
-    width: 95px;
-    height: 95%;
-    display: flex;
-    position: relative;
-    left: 50%;
+    padding: 30px;
+    height: 100px;
 }
 
-#resume-button svg {
-    width: 100%;
-    height: 100%;
-}
-
-#resume-button a {
-    /* text-align: center; */
-    /* text-align: justify; */
+#clipping-svg {
     position: absolute;
-    width: 100%;
-    height: 60%;
-    left: 0;
-    top: 40%;
 }
 
-#resume-button #top  {
-    position: relative;
-    /* right:50%; */
-    fill: greenyellow;
-}
 
-#resume-button:hover {
-    animation-name: open-resume;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    background-color: orchid;
-}
-
-/* #resume-button:hover #resume-circle{
-    fill:orange;
-} */
-
-
-
-#resume-button:hover #top  {
-    animation-name: open-resume;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-}
 
 #resume-txt {
     color: red;
@@ -241,7 +284,6 @@ text {
     position: absolute;
     z-index: -3;
     width: 100%;
-    height: 100%;
 
 }
 
@@ -254,14 +296,17 @@ text {
 .homepageh2 {
     color:#902a99;
     font-family: 'Cantarell', sans-serif;
-    text-align: center;
-    width: 0%;
+    font-size: 1.2em;
+    /* text-align: center; */
+    /* width: 0%; */
+    /* height: 0%; */
     position: relative;
     margin: 0;
     left: 50%;
-    top: 80px;
+    top: 40px;
     text-orientation: upright;
     writing-mode: vertical-rl;
+    white-space: nowrap;
 }
 
 
@@ -273,8 +318,20 @@ text {
     height: 400px;
 }
 
+.blog-img {
+    background-color: white;
+    box-sizing: border-box;
+    width: 90%;
+    height: 90%;
+    padding: 6%;
+    border-width: 1px;
+    border-style: dotted;
+}
+
 .input-container {
     margin: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -287,16 +344,17 @@ text {
 }
 
 .icon-3 {
-    background-color: plum;
+    color: #1ECFD7;
 }
 
 .icon-4 {
-    background-color: aquamarine;
+    color: aquamarine;
 }
 
 .icon-5 {
-    background-color: goldenrod;
+    color: goldenrod;
 }
+
 
 
 
