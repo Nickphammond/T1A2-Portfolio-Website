@@ -1,7 +1,7 @@
 
 @keyframes homebackground {
-    0% {fill: mediumpurple; width: 100%; height: 100%;}
-    100% {fill: cyan; width: 50%; height: 50%; left:25%; top: 25%;}
+    0% {fill: rgb(224, 33, 33); width: 100%; height: 100%;}
+    100% {fill: rgb(0, 174, 255); width: 50%; height: 50%; left:25%; top: 25%;}
 }
 
 @keyframes open-resume {
@@ -16,6 +16,25 @@
     100% {    width: 100px;
         height: 100px;}
 }
+
+/* @media screen and (min-width: 555px) {
+
+    form {
+        text-align: center;
+    }
+
+    form .input-container {
+        width:358px;
+    }
+
+    form label {
+        width: 350px;
+    }
+
+    form input {
+        width:358px;
+    }
+} */
 
 @media screen and (max-device-width: 900px) {
     input {
@@ -41,6 +60,10 @@
 
 
 @media (max-width: 550px) {
+
+    body .blog-article {
+        width: 512px;
+    }
 
     body article {
         width: 354px;
@@ -95,6 +118,10 @@ a {
     color:#dfd3e0;
     font-family: 'Cantarell', sans-serif;
     margin: 0;
+}
+
+i {
+    margin: 30px;
 }
 
 
@@ -179,6 +206,9 @@ text {
     z-index: 1;
 }
 
+form {
+    padding-bottom: 90px;
+}
 
 
 
@@ -188,7 +218,7 @@ text {
     /* float: left; */
     transform: translate(100%,0) scale(9,1.5);
     z-index: -1;
-    color: red;
+    color: rgb(255, 98, 98);
     /* transform:scale(4,1); */
 }
 
@@ -208,8 +238,12 @@ text {
     box-sizing: border-box;
     width: 100%;
     background-color: lightblue;
+    /* background-image: url("/images/pig\ background\ progress.jpg"); */
+    /* background-repeat: no-repeat; */
+    background-size: 50% 50%;
     padding: 50% 20% 50%;
     font-size: 50px;
+    font-family: 'Goldman';
     margin: 0;
 }
 
@@ -237,9 +271,7 @@ text {
     height: 100%;
 }
 
-/* #home-wrapper {
-    display: inline;
-} */
+
 
 #home-circle {
     animation-name: homebackground;
@@ -294,7 +326,7 @@ text {
 
 
 .homepageh2 {
-    color:#902a99;
+    color:#f5bfbf;
     font-family: 'Cantarell', sans-serif;
     font-size: 1.2em;
     /* text-align: center; */
@@ -310,7 +342,15 @@ text {
 }
 
 
+.links {
+    padding: 140px;
+    font-size: 1.5em;
+    text-decoration: none;
+}
 
+#icon-list {
+    margin: 90px;
+}
 
 .project-img {
     clip-path: url(#myClip);
