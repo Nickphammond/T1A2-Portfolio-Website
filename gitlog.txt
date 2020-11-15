@@ -1,0 +1,83 @@
+commit 1f52e66a91353a2ffdde8936f1962007e5bbf0de
+Author: Nicholas Hammond <hammondn649@gmail.com>
+Date:   Sun Nov 15 11:03:01 2020 +1100
+
+    add images to readme
+
+commit 69529f7ab00615990c2d9862bdfe6fc6fc60d2c5
+Author: Nicholas Hammond <hammondn649@gmail.com>
+Date:   Sat Nov 14 12:34:09 2020 +1100
+
+    update subresource integrity
+
+commit 42c821dde232f530edd021f149cb561cfe147926
+Author: Nicholas Hammond <hammondn649@gmail.com>
+Date:   Sat Nov 14 12:07:51 2020 +1100
+
+    finish javascript branch
+
+commit 425aa3cb88b111bb3f4f8060b19ee59b87003174
+Author: Nicholas Hammond <hammondn649@gmail.com>
+Date:   Thu Nov 12 16:05:04 2020 +1100
+
+    add javascript file, add another media query to keep items fixed length, position home page subtitle
+
+commit 5d748211eeb6e4a95340642f1e91118cc924db5e
+Author: Nicholas Hammond <hammondn649@gmail.com>
+Date:   Mon Nov 9 18:50:21 2020 +1100
+
+    update about page
+
+commit 239f834c17abb57c1d6c277ceb85a8d644eec511
+Author: Nicholas Hammond <hammondn649@gmail.com>
+Date:   Fri Nov 6 09:14:38 2020 +1100
+
+    add navbar to other pages, modify contact page inputs
+
+commit 073c4aff563d2861cd441832c7c565098eb4b2f0
+Author: Nicholas Hammond <hammondn649@gmail.com>
+Date:   Thu Nov 5 15:50:37 2020 +1100
+
+    add more to projects file
+
+commit 7d3801c41111e8463cb0ae5c1229f8e804bd7556
+Author: Nicholas Hammond <hammondn649@gmail.com>
+Date:   Thu Nov 5 10:39:07 2020 +1100
+
+    add README
+
+commit be4d78fbb697089aad02afcc031f235712de73b8
+Author: Nicholas Hammond <hammondn649@gmail.com>
+Date:   Thu Nov 5 10:31:01 2020 +1100
+
+    change css, add dates to blog, add links in about page, add basic html code to project file
+
+commit 8daf152c4061af9dc988b57b422c9731ad614917
+Author: Nicholas Hammond <hammondn649@gmail.com>
+Date:   Mon Nov 2 23:31:03 2020 +1100
+
+    remove svg navbar experiment and replace with standard anchor tag
+
+commit 9ddc7944a5d4a567d8f81ed216b7f850cbd71349
+Author: Nicholas Hammond <hammondn649@gmail.com>
+Date:   Mon Nov 2 19:58:52 2020 +1100
+
+    add background svg
+
+commit d5f2ee8373d9648f4d936c419897e2c7e060d109
+Author: Nicholas Hammond <hammondn649@gmail.com>
+Date:   Sun Nov 1 17:49:27 2020 +1100
+
+    add about blog contact project html files
+
+commit e9556e4758f8674d380573b0c3f278aa23e23906
+Author: Nicholas Hammond <hammondn649@gmail.com>
+Date:   Sat Oct 31 02:00:02 2020 +1100
+
+    add css
+
+commit 3168ed9bfbd549478ebd84a783f0f0945083c199
+Author: Nicholas Hammond <hammondn649@gmail.com>
+Date:   Sat Oct 31 01:40:29 2020 +1100
+
+    initial commit

@@ -299,6 +299,7 @@ form {
 
 #clipping-svg {
     position: absolute;
+    width: 0;
 }
 
 
