@@ -17,30 +17,13 @@
         height: 100px;}
 }
 
-/* @media screen and (min-width: 555px) {
 
-    form {
-        text-align: center;
-    }
-
-    form .input-container {
-        width:358px;
-    }
-
-    form label {
-        width: 350px;
-    }
-
-    form input {
-        width:358px;
-    }
-} */
 
 @media screen and (max-device-width: 900px) {
-    input {
+    /* input {
         width: 100%;
         line-height: 2em;
-    }
+    } */
 
     body .homepageh2 {
         font-size: 3em;
@@ -100,6 +83,19 @@
     }
 }
 
+@media (min-width: 550px) {
+    body .input-container {
+        width: 350px;
+        position: relative;
+        left: 50%;        
+    }
+
+    .inner-input {
+        position: relative;
+        right: 275px;
+    }
+}
+
 
 
 
@@ -125,6 +121,11 @@ i {
 }
 
 
+button {
+    border: none;
+    color: rgb(202, 124, 185);
+    padding: 10px;
+}
 
 nav a {
 
@@ -237,7 +238,7 @@ form {
 .about-section {
     box-sizing: border-box;
     width: 100%;
-    background-color: lightblue;
+    background-color: lightgray;
     /* background-image: url("/images/pig\ background\ progress.jpg"); */
     /* background-repeat: no-repeat; */
     background-size: 50% 50%;
